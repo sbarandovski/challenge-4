@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    color: white;
+    font-size: 24px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.menu .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.menu ul {
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.menu ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.inner {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu ul a {
+    text-decoration: none;
+}
+
+.menu ul li a {
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+}  
+.text h2, p {
+    color: black;
+    font-family: monospace;
+}
+
+.hi {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+}
+
+
+.but {
+    background-color: black;
+    color: white;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-1 {
+    width: 100%;
+    border: 1px solid;
+    font-size: 38px;
+}
+
+.four {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(246, 246, 246);
+}
+.img-wrap {
+    width: 100% !important;
+}
+.box-img {
+    width: 33.33%;
+    float: left !important;
+}

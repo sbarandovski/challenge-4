@@ -1,0 +1,329 @@
+body {
+    margin: 0;
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    color: white;
+    font-size: 24px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.menu .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.menu ul {
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.menu ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.inner {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu ul a {
+    text-decoration: none;
+}
+
+.menu ul li a {
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+}  
+.text h2, p {
+    color: black;
+    font-family: monospace;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+}
+
+.hi {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 12px 18px;
+    background-color: black;
+    color: white;
+    border-color: black;
+    cursor: pointer;
+}
+
+.c-red {
+    background-color: rgb(255, 84, 68);
+}
+
+.c-burple {
+    background-color: rgb(170, 45, 182);
+}
+
+.c-cyan {
+    background-color: rgb(30, 194, 164);
+}
+
+.c-blue {
+    background-color:  rgb(39, 139, 224);
+}
+
+.three {
+    
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    padding: 118px;
+    margin-bottom: 142px;
+}
+
+.wrap {
+    width: 25%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 35px;
+}
+
+.col-1 {
+    padding: 30px 50px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    box-shadow: 0 0 13px #000000;
+}
+
+.col-1 h2 {
+    font-size: 45px;
+}
+
+.col-1 p {
+    font-size: 13px;
+    color: white;
+}
+
+
+.four {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(246, 246, 246);
+    padding: 40px 0px;
+}
+
+.four ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+.four  li {
+    float: left;
+    box-shadow: 0 0 5px gray;
+  }
+  
+.four   li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: monospace; 
+    font-size: 15px;
+    padding: 5px 10px;
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 4px;
+    
+}
+  
+.four  li a:hover {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+.logo-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.four h2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    /* padding-top: 20px; */
+}
+
+.img-wrap {
+    width: 100%;
+    text-align: center;
+    padding: 46px 220px;
+}
+.box-img {
+    width: 33.33%;
+    float: left;
+    margin: 30px 0;
+}
+
+.five {
+    width: 100%;
+    height: 60vh;
+    padding: 50px 150px;
+    margin-top: 45px;
+}
+
+.five h2, p {
+    text-align: center;
+    color: black;
+    
+}
+
+.five h2 {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 36px;
+}
+
+.text-3 {
+    width: 100%;
+    margin-top: 60px;
+}
+.row-1 {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.row-1 p {
+    text-align: left !important;
+}
+
+.last {
+    width: 100%;
+    height: 30vh;
+    background-color: #464646;
+}
+
+.last h2 {
+    font-size: 32px;
+}
+
+.last {
+    text-align: center;
+    padding-top: 91px;
+}
+
+.logo-3 ul li {
+    display: inline;
+    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-3 ul a {
+    text-decoration: none;
+}
+
+.logo-3 ul li a {
+    color: white;
+    
+    font-size: 20px;
+}  
+
+.finish {
+    width: 100%;
+    height: 7vh;
+    background-color: black;
+}
+
+.finish p {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 21px;
+    padding-left: 20px;
+}
+
+.img-text {
+    padding: 3px;
+    margin-right: 10px;
+}
+.text-r {
+    text-align: right;
+}
+.finish-box {
+    width: 100%;
+}
+.finish-box1 {
+    width: 50%;
+    float: left;
+}
+.finish-box1 p {
+    text-align: left !important;
+}
+.finish-box2 p {
+    text-align: right !important;
+    margin-right: 20px;
+}
+
+.logo-3 ul li a {
+    margin-right: 15px;
+    
+}
+
+.logo-3 i {
+    font-size: 31px;
+}
